@@ -1,2 +1,13 @@
 Создаем ветку develope и переключаемся на нее
 git checkout -b develope
+
+Вносим исправления в ветку develope
+git add -A
+git commit -m "Убрал типизацию"
+git push origin develope
+
+мерджу main и develope
+git merge develope
+
+переключаюсь на main
+git checkout main
