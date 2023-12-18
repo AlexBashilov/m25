@@ -1,0 +1,2 @@
+Создаем ветку develope и переключаемся на нее
+git checkout -b develope
