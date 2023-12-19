@@ -7,10 +7,10 @@ import (
 
 func main() {
 	n := 0
-	fmt.Print("Введите данные: ")
+	fmt.Print("Введите целое число: ")
 	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("Вы ввели следующие данные: %d\n", n)
+	fmt.Printf("Вы ввели число: %d\n", n)
 }
