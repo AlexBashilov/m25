@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var n interface{}
-	fmt.Print("Введите целое число: ")
+	fmt.Println("Введите целое число: ")
 	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
