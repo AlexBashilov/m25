@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-	n := 0
-	fmt.Print("Введите целое число: ")
+	var n interface{}
+	fmt.Println("Введите целое число: ")
 	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
